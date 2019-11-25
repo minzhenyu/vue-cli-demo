@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h5>我的大小</h5>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -54,5 +55,9 @@ li {
 }
 a {
   color: #42b983;
+}
+h5{
+  height: 100px;
+  font-size: 50px;
 }
 </style>
